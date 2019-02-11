@@ -91,7 +91,7 @@ public class AppController {
 		booking.setBookedBy(profile);
 		System.out.println("In save booking is " +booking);
 
-		 restTemplate.postForEntity("http://localhost:8989/bookings", booking, null);
+		 restTemplate.postForEntity("http://localhost:7878/bookings", booking, null);
 		 System.out.println("below post");
 		 restTemplate.put("http://http://localhost:9095/hotels/" + staticHotel.getHotelId()+
 					"?numberOfGuest=" +profile.getNumberOfGuest()+ "&bookRoom="+true, null);
