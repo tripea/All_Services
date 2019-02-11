@@ -15,7 +15,7 @@ public class FlightServiceImpl implements FlightService {
 
 	@Override
 	public ResponseEntity<List> flightsFromSourceToDestination(String source, String destination) {
-		String url = "http://10.246.92.123:7070/flight?source=" + source + "&destination=" + destination;
+		String url = "http://localhost:7070/flight?source=" + source + "&destination=" + destination;
 		return restTemplate.getForEntity(url, List.class);
 	}
 
