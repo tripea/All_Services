@@ -32,7 +32,7 @@
 				<li class="nav-item"><a class="nav-link"
 					href="search/searchFlights">Flight Booking</a></li>
 				<li class="nav-item"><a class="nav-link"
-					href="getAllhotels">Hotel Booking</a></li>
+					href="search/searchHotels">Hotel Booking</a></li>
 			</ul>
 			<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
 				<ul class="navbar-nav ml-auto">

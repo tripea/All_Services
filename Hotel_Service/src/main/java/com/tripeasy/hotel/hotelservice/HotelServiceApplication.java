@@ -66,23 +66,23 @@ public class HotelServiceApplication {
 		facilities.put("Taj", hotelFacilities);
 		return (args) -> {
 			repository.save(new Hotel(201, "TejHotel",
-					new Address("Sector 2", "Neer to Cap", "Maharashtra", "India", "Mumbai", 415205), review, rooms,
+					new Address("Sector 2", "Neer to Cap", "Maharashtra", "India", "Delhi", 415205), review, rooms,
 					hotelPic, facilities, "In description it is best hotel in India", 50,50));
 			
 			repository.save(new Hotel(202, "Hotel Maharaja",
-					new Address("Sector 2", "Neer to Cap", "Maharashtra", "India", "Mumbai", 415205), review, rooms,
+					new Address("Sector 2", "Neer to Cap", "Telangana", "India", "Hyderabad", 415205), review, rooms,
 					hotelPic, facilities, "In description it is best hotel in India", 60,60));
 			
 			repository.save(new Hotel(203, "SP",
-					new Address("Sector 2", "Neer to Cap", "Maharashtra", "India", "Mumbai", 415205), review, rooms,
+					new Address("Sector 2", "Neer to Cap", "Telangana", "India", "Secunderabad", 415205), review, rooms,
 					hotelPic, facilities, "In description it is best hotel in India", 40,40));
 			
 			repository.save(new Hotel(204, "Assal Konkani",
-					new Address("Sector 2", "Neer to Cap", "Maharashtra", "India", "Mumbai", 415205), review, rooms,
+					new Address("Sector 2", "Neer to Cap", "Maharashtra", "India", "Pune", 415205), review, rooms,
 					hotelPic, facilities, "In description it is best hotel in India", 45,45));
 				
 			repository.save(new Hotel(205, "Taj",
-					new Address("Sector 2", "Neer to Cap", "Maharashtra", "India", "Mumbai", 415205), review, rooms,
+					new Address("Sector 2", "Neer to Cap", "Karnataka", "India", "Bangalore", 415205), review, rooms,
 					hotelPic, facilities, "In description it is best hotel in India", 500,500));
 			
 		};

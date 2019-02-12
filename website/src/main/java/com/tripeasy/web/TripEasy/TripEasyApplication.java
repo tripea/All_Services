@@ -17,5 +17,7 @@ public class TripEasyApplication {
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
 	}
+	
+	 
 }
 
